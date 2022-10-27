@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch src --exec 'npx' 'ts-node' src/index.ts",
+    "start": "nodemon --watch src --exec 'npx' 'ts-node' src/selective-sort.ts",
     "lint": "eslint . --cache --fix --ext .ts,.tsx",
     "pretest": "npm run lint",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
